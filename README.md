@@ -13,16 +13,19 @@ There are two parts to making the code work, both outlined below. First is the u
 ## User Input Explanation
 
 Open the `cvs_check.py` file.
-In Windows, right-click on the file and hover over the Open with option. Select Notepad or a text editor specifically for code.
-Mac users double click the file.
+Windows Users-<br>
+Right-click on the file and hover over the `Open with` option. Select Notepad or a text editor specifically for code.
+
+Mac Users-<br>
+Double click the file.
 
 Once in your text editor scroll to the block letter section "User Varaibles"
-In this section you will be inputting information regarding which states and/or cities you would like to receive alerts about, as well as relevant email information in the provided variables which are in all caps.
+In this section you will be inputting information regarding which states and/or cities you would like to receive alerts about, as well as relevant email information in the provided variables (which are in all caps).
 
 **Email Information Input**<br>
 You will be asked to input an email type/provider (such as gmail, outlook, comcast, etc), an email from which to send alerts, the password to the sender email account, and an email from which to receive alerts.
 <br>Example input:<br>
-`EMAIL_PROVIDER = 'gmail'`<br>
+`EMAIL_TYPE = 'gmail'`<br>
 `SENDER = 'example@provider.com'`<br>
 `PASSWORD = 'yourpassword'`<br>
 `RECEIVER = 'example@example.com'`<br>
@@ -42,7 +45,7 @@ For example, if you would like to check only in Hudson New York, Medford Massach
 `CITIES = ['Hudson', 'Medford', 'Ocean City', 'Salem', 'Bee Cave']`<br>
 Note that you must have MA twice to match with its analagous city, in order. 
 
-You will eventually see a new block letter heading, after which, you should make no changes to the code in order to ensure functionality, unless you know what you are doing with the code.  If you know what's up, hack away!
+You will eventually see a new block letter heading, after which, you should make no changes to the code in order to ensure functionality unless you know what you're doing with the code.  If you know what's up, hack away!
 
 Save the code and run.
 
@@ -54,7 +57,7 @@ Download project files.
 
 ### STEP 1
 Windows Users- <br>
-Launch the Powershell application
+Launch the Powershell application (search for powershell)
 
 Mac Users- <br>
 Open the default terminal (search for terminal) and skip to step 4
