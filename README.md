@@ -41,7 +41,7 @@ There are three acceptable formats of input:
 2. Enter one state, and list out multiple cities that are all in that one state.
 3. Enter multiple states in multiple cites. In this third case, each city MUST have its matching state listed out in the exact same order.<br>
 For example, if you would like to check only in Hudson New York, Medford Massachusetts, Ocean City Maryland, and Salem Massachusetts, input would be as follows:<br>
-`STATEINI = ['NY', 'MA', 'MD', 'MA', 'TX']`<br>
+`STATES = ['NY', 'MA', 'MD', 'MA', 'TX']`<br>
 `CITIES = ['Hudson', 'Medford', 'Ocean City', 'Salem', 'Bee Cave']`<br>
 Note that you must have MA twice to match with its analagous city, in order. 
 
