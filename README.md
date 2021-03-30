@@ -79,7 +79,7 @@ Type `exit()` and hit enter to exit out of the three arrows
 Navigate into folder containing the project files (likely Downloads).
 If you are unfamiliar with how to do this, look here:
 https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/ <br>
-Note: for windows users, the website shows for the actual command terminal but we recommend powershell (All the commands are the same)
+Note: for windows users, the website shows for the actual command terminal but we recommend powershell (all the commands are the same)
 
 ### STEP 5
 Run the code: type `python cvs_check.py` and then hit `enter`.
